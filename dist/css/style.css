@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.parralax-1 {
+	background-image: url('../assets/main-background.jpg');
+	height: 100%;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#restaurant-title{
+	color: gold;
+	font-family: 'Sevillana', cursive;
+	font-size: 10vh;
+	margin-left: 2rem;
+	margin-top: 2vh;
+
+	width: auto;
+	line-height: 7vh;
+}
+
+
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 10vh;
+	background-color: black;
+	width: 100vw;
+}
+
+#navbar-tabs{
+	width: 35vw;
+	height: 100%;
+	margin-right: 1rem;
+	color: gold;
+	font-size: 3vh;
+	float: right;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	margin: 0 .5rem;
+}
+
+
+@media screen and (max-width: 500px){
+	#restaurant-title{
+		font-size: 4vh;
+		width: auto;
+		line-height: 3vh;
+	}
+
+	#navbar-tabs{
+		font-size: 2.5vh;
+		width: 45vw;
+}
