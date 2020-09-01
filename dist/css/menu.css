@@ -1,0 +1,27 @@
+#menu-container{
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#menu-top-text{
+	font-size:52px;
+	width: fit-content;
+	color: gold;
+	font-family: 'Sevillana', cursive;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.menu-card{
+	border: 1px solid black;
+
+	height: 20vh;
+	width: 60%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
