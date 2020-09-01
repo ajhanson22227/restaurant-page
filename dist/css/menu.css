@@ -9,19 +9,104 @@
 }
 
 #menu-top-text{
-	font-size:52px;
+	font-size:72px;
 	width: fit-content;
 	color: gold;
 	font-family: 'Sevillana', cursive;
-	margin-top: 3vh;
-	margin-bottom: 3vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 .menu-card{
 	border: 1px solid black;
 
+	background-image: linear-gradient(grey, black);
+	color: white;
+
+	display: grid;
+	grid-template-columns: 20% 1fr 20%;
+	grid-template-rows: 1fr 1fr;
+
 	height: 20vh;
 	width: 60%;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
+}
+
+.menu-title{
+	font-size: 54px;
+
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.menu-text-left{
+
+	font-size: 46px;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+}
+
+.menu-text-right{
+
+	font-size: 46px;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.menu-picture-left{
+	
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.menu-picture-right{
+	
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.menu-price-left{
+	
+	font-size: 72px;
+
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.menu-price-right{
+	
+	font-size: 72px;
+
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.text{
+	justify-self: center;
+	align-self: center;
+
 }
