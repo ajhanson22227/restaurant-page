@@ -5,21 +5,37 @@
 	-webkit-user-select: none;  /* Chrome all / Safari all */
 	-moz-user-select: none;     /* Firefox all */
 	-ms-user-select: none;      /* IE 10+ */
-	user-select: none;   
+	user-select: none;          
 }
 
 html, body{
   height: 100%;
+  width: 100%;
+
 }
 
 
-.parralax-1 {
+/*.parralax-1 {
 	background-image: url('../assets/main-background.jpg');
 	height: 90%;
 	background-attachment: scroll;
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
+}
+*/
+#content{
+	height: 120%;
+	width: 100vw;
+
+	background-image: url('../assets/main-background.jpg');
+	background-attachment: scroll;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+  	overflow: auto;
+  	min-height: 100%;
 }
 
 #restaurant-title{
@@ -71,14 +87,15 @@ li:hover{
 
 
 #main-content{
+	height: 100%;
 	width: 100%;
-	padding-top: 5vh;
+	/*padding-top: 5vh;*/
 }
 
 #about-container{
 	width: 40vw;
 	height: auto;
-	margin: 0 0 5vh 5vh;
+	margin: 5vh 0 5vh 5vh;
 
 
 	background-color:  rgba(140, 140, 140, 0.3);
